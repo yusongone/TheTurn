@@ -1,0 +1,10 @@
+.idea/*
+.idea/.name
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/youdao.iml
+.idea/encodings.xml
+js/jsx/build/.module-cache/*
+*.swp

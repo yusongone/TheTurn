@@ -1,0 +1,8 @@
+.satellite{
+    position:fixed;
+    bottom:0;
+    right:0;
+    background:#e6cb24;
+    color:#333;
+    padding:10px;
+}

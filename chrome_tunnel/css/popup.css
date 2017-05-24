@@ -1,0 +1,102 @@
+html,body{
+    width:300px;
+}
+*,ul{box-sizing:border-box;list-style:none;margin:0;padding:0;}
+.topBar{
+    height: 40px;
+    line-height: 40px;
+    background: #efefef;
+    border-bottom: 1px solid #ddd;
+    padding:0 10px;
+}
+.topBar .setting{
+    float:right;
+    font-size: 14px;
+    cursor:pointer;
+}
+.groupList{
+    max-height: 500px;
+    overflow: scroll;
+    width: 100%;
+}
+
+.groupList .checkbox{
+    margin-right:5px;
+}
+
+.groupList .group{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.groupList .bar{
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+}
+
+.groupList .hideArea.hidden{
+    display:none;
+}
+.groupList .hideArea{
+    padding: 10px;
+    background: #fafafa;
+    border-top: 1px solid #ddd;
+}
+.groupList .hideArea .item{
+    color:#aaa;
+    padding: 10px 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+.groupList .hideArea .item.checked{
+    color:#333;
+}
+.groupList .hideArea .item:hover{
+    background:#eee;
+}
+.groupList .hideArea .item:last-child{
+    border-bottom:0;
+}
+.groupList .item span{
+    float:left;
+}
+.groupList .item .itemName{
+    margin-right:10px;
+}
+.groupList .item .itemOriginLink,
+.groupList .item .itemProxyLink{
+    width: 100%;
+    padding-left: 20px;
+    margin: 5px 0 0;
+    line-height:18px;
+    /* white-space: nowrap; */
+}
+.groupList .item .statusIcon{
+    width: 18px;
+    height: 18px;
+    background: #dcdcdc;
+    float: right;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 18px;
+}
+
+
+.groupList {
+
+}
+.groupList .bar{
+    cursor: pointer;
+}
+.groupList .bar:hover{
+    background: rgba(176, 252, 255, 0.49);
+}
+.groupList .bar .drop{
+    float:right;
+    margin-left: 20px;
+}
+.groupList .bar .checkedCount{
+    float:right;
+    color:#999;
+}
